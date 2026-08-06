@@ -1,6 +1,6 @@
 package com.academy.ProductsInventory.repository;
 
-import com.academy.ProductsInventory.model.Product;
+import com.academy.ProductsInventory.repository.entity.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

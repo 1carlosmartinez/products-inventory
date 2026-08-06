@@ -1,6 +1,6 @@
 package com.academy.ProductsInventory.service.impl;
 
-import com.academy.ProductsInventory.model.Product;
+import com.academy.ProductsInventory.repository.entity.Product;
 import com.academy.ProductsInventory.repository.ProductRepository;
 import com.academy.ProductsInventory.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;

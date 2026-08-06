@@ -1,6 +1,6 @@
 package com.academy.ProductsInventory.service;
 
-import com.academy.ProductsInventory.model.Product;
+import com.academy.ProductsInventory.repository.entity.Product;
 import java.util.List;
 
 public interface ProductService {
