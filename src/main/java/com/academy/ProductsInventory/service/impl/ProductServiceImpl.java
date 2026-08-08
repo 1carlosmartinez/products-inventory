@@ -15,6 +15,11 @@ public class ProductServiceImpl implements ProductService {
     private ProductRepository productRepository;
 
     @Override
+    public Product saveProduct(Product product) {
+        return productRepository.save(product);
+    }
+
+    @Override
     public Product addProduct(Product product) {
         //Aqui colocaremos luego la logica para agregar productos
         return productRepository.save(product);
